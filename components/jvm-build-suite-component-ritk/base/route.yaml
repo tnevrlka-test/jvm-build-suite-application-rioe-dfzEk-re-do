@@ -1,0 +1,23 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: jvm-build-suite-component-ritk
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: jvm-build-suite-component-ritk
+    app.kubernetes.io/part-of: jvm-build-suite-application-rioe
+  name: jvm-build-suite-componentdst6
+  namespace: jvm-build-ivqc-tenant
+spec:
+  port:
+    targetPort: 8081
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: jvm-build-suite-component-ritk
+    weight: 100
+status: {}
