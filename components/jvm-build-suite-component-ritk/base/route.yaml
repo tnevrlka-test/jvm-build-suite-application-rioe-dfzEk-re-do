@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-ritk
     app.kubernetes.io/part-of: jvm-build-suite-application-rioe
-  name: jvm-build-suite-componentdst6
+  name: jvm-build-suite-componentytg6
   namespace: jvm-build-ivqc-tenant
 spec:
   port:

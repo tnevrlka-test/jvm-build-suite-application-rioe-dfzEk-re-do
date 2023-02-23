@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-ritk
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:c1fe28ed056e49b6b5ccf3e869b8dc44
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:69b9574ee30bb93da3dbca5884a46a26ff6fd0c2edf49d2bb072a2c3d60540ad
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
